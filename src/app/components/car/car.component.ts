@@ -56,10 +56,10 @@ export class CarComponent implements OnInit {
         wheels: 'Silver'
       };
       this.options = ['ABS', 'AutoPilot', 'AutoParking'];
-    } else if (carName === 'audi') {
-      this.name = 'Audi';
+    } else if (carName === 'zaz') {
+      this.name = 'Zaz';
       this.speed = 230;
-      this.model = 'RX8';
+      this.model = '40';
       this.colors = {
         car: 'White',
         salon: 'Black',
